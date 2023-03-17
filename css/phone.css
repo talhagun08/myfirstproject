@@ -1,0 +1,15 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.75rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 90px;
+
+}
+.cvside {
+    padding: 1rem;
+    background: white;
+    margin-top: 0.75rem;
+    width: 100%;
+    
+}

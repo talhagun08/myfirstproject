@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a {
+    padding: 0.5rem;
+}
+#navbar ul li a:hover {
+    background: rgb(200, 162, 200);
+    border-radius: 2px;
+}
+
+/* About Me Section */
+#me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#me img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#me .name h2 {
+    margin-bottom: 0.75rem;
+}
+#me .name p {
+    margin: 0.5rem auto;
+    opacity: 0.6;
+    font-style: italic;
+}
+.cvside {
+    padding: 1rem;
+    background: white;
+    margin-top: 0.75rem;
+    width: 33%;
+    
+}
+
+.about-me {
+    padding: 1rem;
+    color: blueviolet;
+    
+}
+
+/* Certificates Section */
+#certificate {
+    color: blueviolet;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+#certificate .items {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+}
+#certificate .items .item {
+    width: 25½;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#certificate a {
+    padding: 1.50rem;
+    color: yellowgreen;
+}
+#certificate a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+    
+/* Contact Section */
+
+#contact {
+    
+    color: blueviolet;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.social-media {
+    background-color: rgb(200, 162, 200);
+}
+.social-media ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    font-size: 2rem;
+    
+}
+.social-media ul a:hover {
+    opacity: 0.8;
+}
